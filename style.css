@@ -1,0 +1,237 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: tahoma;
+	font-size: 16px;
+	color: #707676;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.contaiener{
+	width: 75%;
+	margin: auto;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+	color: #2f3432;
+	line-height: 1.5;
+}
+/*global area end*/
+header{
+	background: linear-gradient(#149777,#10846f);
+	height: 60px;
+	font-size: 14px;
+}
+.logo{
+	width: 165px;
+	float: left; 
+	margin-top: 10px;
+}
+.left-area{
+	width: 245px;
+	float: left;
+}
+.left-area li{
+	display: inline-block;
+	margin-left: 40px;
+}
+.left-area li a{
+	color: #fff;
+	text-decoration: none;
+}
+.right-area{
+	float: right;
+}
+.menu_wrapper:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.menu_wrapper{
+	line-height: 60px;
+}
+.right-area li{
+	float: left;
+	margin-left: 40px;
+}
+.right-area li a{
+	color: #fff;
+	text-decoration: none;
+}
+.right-area li a i{
+	margin-right: 5px;
+}
+.menu_wrapper li a:hover{
+	color: #eaeaea;
+}
+#btn_eng a{
+	text-decoration: none;
+	border: 1px solid #007168;
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+.btn_ad button{
+	text-decoration: none;
+	border: 1px solid #007168;
+	border-radius: 4px;
+	padding: 6px 12px;
+	background: linear-gradient(#ffd66e, #ffbe4f);
+	font-size: 19px;
+	cursor: pointer;
+}
+.btn_ad button:hover{
+	background: linear-gradient(#ffbe4f, #ffd66e);
+}
+/*home display area satrt from here*/
+.ad-banner{
+	width: 100%;
+}
+.ad-banner img{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.home-display{
+	background: #fff;
+}
+.top-display{
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.top-display:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.welcomeTitle{
+	width: 50%;
+	float: left;
+}
+.welcomeTitle p{
+	margin-top: 20px;
+}
+.location{
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.location .city{
+	margin-bottom: 20px;
+}
+.location .h3{
+	
+	font-size: 19px;
+}
+.location li a{
+	color: #0085ce;
+	font-size: 15px;
+}
+/*map setuup atart*/
+.svg_map{
+	width: 280px;
+	position: absolute;
+	left: 550px;
+}
+.map img{
+	width: 100%;
+}
+.shadow_img img{
+	width: 100%;
+}
+/*map setup end*/
+.focus_area{
+	width: 47%;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+.focus_content{
+	border: solid 1px #d4ded9;
+	border-radius: 4px 4px 0px 0px;
+}
+.focus_area h3{
+	font-size: 17px;
+	margin-bottom: 20px;
+}
+.focus-icon{
+	width: 24%;
+	text-align: center;
+	display: inline-block;
+	margin: 15px 0px 15px 0px;
+}
+.focus-icon i{
+	font-size: 40px;
+	margin-bottom: 15px;
+	display: block;
+	color: #05080ecc;
+}
+.focus-icon span{
+	font-size: 16px;
+	color: #0085ce;
+}
+.focus-icon a:hover span{
+	color: #707676;
+}
+.focus-icon a:hover{
+	text-decoration: none;	
+}
+.focus-note{
+	border-right: 1px;
+	border-bottom: 1px;
+	border-left: 1px;
+	border-style: solid;
+	border-color: #d4ded9;
+	border-top: none;
+	padding: 10px 0px;
+	text-align: center;
+	border-radius: 0px 0px 4px 4px;
+	font-size: 15px;
+}
+.focus-note .deal-img{
+	background: url(img/icon-special-MarketDeals-24@2x-3dbd2f01.png);
+	width: 18px;
+	height: 18px;
+	background-size: cover;
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.focus-note a{
+	text-decoration: none;
+	font-size: 14px;
+}
+.focus-note a:hover{
+	color: #707676;
+}
+.focus-note span{
+	font-size: 11px;
+	background: #4e3534;
+	color: #fff;
+	padding: 0px 2px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+.focus-note p{
+	display: inline-block;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
